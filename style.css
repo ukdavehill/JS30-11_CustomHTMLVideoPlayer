@@ -98,10 +98,10 @@ html {
   }
   
   .progress__filled {
-    width: 50%; 
+    width: 100%; /*changed from 50% for better UX */
     background: #ffc600;
     flex: 0;
-    flex-basis: 50%;
+    flex-basis: 100%;  /*changed from 50% for better UX */
   }
   
   /* unholy css to style input type="range" */
